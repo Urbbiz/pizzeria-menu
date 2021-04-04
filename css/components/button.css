@@ -1,0 +1,30 @@
+.btn-white {
+    background-color: #fff;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-white:hover {
+    background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+    color: #fff;
+}
+
+.btn-red {
+    background-color: #fff;
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-red:hover {
+    background: linear-gradient(-47deg, #d32828 0%, #f54804 100%);
+    color: #fff;
+    border: none;
+}

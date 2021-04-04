@@ -1,0 +1,39 @@
+   .new-pizza-form {
+       display: inline-block;
+       padding-top: 30px;
+       padding-bottom: 30px;
+       display: grid;
+       margin-top: 50px;
+       font-size: 35px;
+       text-align: center;
+       font-weight: 500;
+       line-height: 40px;
+   }
+   
+   .container.new-pizza-form h2 span {
+       font-weight: 400;
+   }
+   
+   .block {
+       padding: 40px;
+       border-radius: 20px;
+       text-align: center;
+       box-shadow: 0 0 20px #00000030;
+   }
+   
+   .name {
+       display: inline-flexbox;
+       font-size: 18px;
+       line-height: 20px;
+       margin-top: 20px;
+       padding-right: 15px;
+   }
+   
+   .btn-white {
+       margin-top: 20px;
+   }
+   
+   .validation {
+       color: red;
+       font-size: small;
+   }

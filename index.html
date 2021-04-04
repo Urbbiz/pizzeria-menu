@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Menu</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+    <section class="container menu">
+        <div class="row">
+            <div class="col-12">
+                <h2> <span>Pizzeria </span>Menu</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="btn-white" id="sort-by-name">Sort by name</button>
+                <button class="btn-white" id="sort-by-price">Sort by price</button>
+                <button class="btn-white" id="sort-by-heat">Sort by heat</button>
+            </div>
+        </div>
+        <div class="row" id="pizza-menu"></div>
+    </section>
+
+    <!-- FORM -->
+
+    <section class="container new-pizza-form">
+        <div class="row">
+            <div class="col-4-6">
+                <h2> <span>Pizzeria </span>Menu</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-4-6">
+                <form class="block ">
+                    <div class="name">
+                        <div><label for="new-name">Name:</label></div>
+                        <div class="validation" id="new-name-validation"></div>
+                        <input type="text" id="new-name" />
+                    </div>
+                    <div class="name">
+                        <div><label for="new-price">Price:</label></div>
+                        <input type="text" id="new-price" />
+                        <div class="validation" id="new-price-validation"></div>
+                    </div>
+                    <div class="name">
+                        <div><label for="new-heat">Heat:</label></div>
+                        <select name="new-heat" id="new-heat"> 
+                            <option value="">None</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                         </select class="name">
+                    <span id="new-heat-validation"></span>
+                </div>
+                <div class="name">
+                    
+                    <div><label for="new-toppings">Toppings:</label></div>
+                    <div class="validation" id="new-toppings-validation"></div>
+                    <input type="text" id="new-toppings" />
+                    <div id="new-toppings-validation"></div>
+                </div>
+
+                <div class="name">
+                    <div><label for="new-photo">Photo:</label></div>
+                        <select name="new-photo" id="new-photo"> 
+                            <option value="">None</option>
+                            <option value="1.png">photo 1</option>
+                            <option value="2.png">photo 2</option>
+                            <option value="3.png">photo 3</option>
+                        </select>
+                    </div>
+                    <button class="btn-white" type="button" id="add-new-pizza">Add pizza</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="./js/components/Pizza.js"></script>
+    <script src="./js/components/Menu.js"></script>
+    <script src="./js/ui-methods.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
