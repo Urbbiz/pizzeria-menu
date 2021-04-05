@@ -15,6 +15,7 @@ Design: Andrius Urbonas
 
 
 ## Project features
+- responsive design
 - repetitive content is generated/rendered;
 - form validations
 

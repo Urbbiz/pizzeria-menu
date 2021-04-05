@@ -37,3 +37,16 @@
        color: red;
        font-size: small;
    }
+   
+   input {
+       width: 80%;
+       height: 40px;
+       font-size: large;
+       border-radius: 10px;
+   }
+   
+   @media (max-width: 480px) {
+       input {
+           width: 100%;
+       }
+   }
