@@ -46,7 +46,7 @@ class Menu {
             errors.push({ key: "price", message: "Please provide number" });
         } else if (params.price < 0) {
             errors.push({ key: "price", message: "Please provide positive number" });
-        } else if (Math.floor(params.price * 100) / 100 != params.price) {
+        } else if (parseFloat(params.price).toFixed(2) != params.price) {
             errors.push({ key: "price", message: "Please provide max 2 decimal points" });
         }
 
